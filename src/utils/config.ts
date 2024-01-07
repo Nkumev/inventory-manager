@@ -13,7 +13,7 @@ async function connectDB() {
   try {
     const conn = await mongoose.connect(DB);
     console.log(
-      `Database successfully connected: ${colors.green.bold(
+      `Database successfully connected: ${colors.blue.bold(
         conn.connection.host
       )}`
     );
